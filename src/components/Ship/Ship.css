@@ -1,0 +1,36 @@
+.ship {
+  border: 1px solid #0018a3;
+  background-color: #cdd5f0;
+  box-sizing: border-box;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  font-size: 0;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.ship_h_1 {
+  width: 32px;
+}
+.ship_h_2 {
+  width: 64px;
+}
+.ship_h_3 {
+  width: 96px;
+}
+.ship_h_4 {
+  width: 128px;
+}
+.ship_v_1 {
+  height: 32px;
+}
+.ship_v_2 {
+  height: 64px;
+}
+.ship_v_3 {
+  height: 96px;
+}
+.ship_v_4 {
+  height: 128px;
+}

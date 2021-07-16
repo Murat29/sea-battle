@@ -3,6 +3,10 @@
   grid-template-areas: '. h-coord' 'v-coord battlefield' 'placeholder placeholder';
 }
 
+.field_disabled {
+  opacity: 0.3;
+}
+
 .field__coordinates {
   display: flex;
 }
@@ -35,10 +39,16 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  position: relative;
+  font-size: 0;
 }
 
 .field__cell_no-border {
   border: none;
+}
+
+.field__cell_aaa {
+  background-color: aqua;
 }
 
 .field__placeholder {
